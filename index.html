@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mind Mate</title>
+    <link rel="stylesheet" type="text/css" href="arc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="login.html">Login</a>
+        <a href="dash.html">Dashboard</a>
+        <a href="about.html">About Us</a>
+        <a href="https://www.practo.com/?utm_source=google&utm_medium=cpc&utm_campaign=brand-search-practo-consult&sem=true&gclid=EAIaIQobChMIqYDKheSr_wIV3JNmAh3BZga7EAAYASAAEgKhdPD_BwE">Appointments and Medicines</a>
+        <a href="https://www.nimh.nih.gov/health/topics/suicide-prevention">Help Line</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    
+      <div class="header">
+        <div class="navbar" onclick="openNav()">
+
+            <a href="#" class="nav">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </a>
+        </div>
+        <div class="main-container">
+            <a href="index.html" class="main">MindMate</a>
+        </div>
+
+    </div>
+    <hr>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("navbar").style.marginRight = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("navbar").style.marginRight= "0";
+        }
+        </script>
+
+        <div class="index-image">
+            <div class="t1-container">
+                <p class="t1">
+                    MindMate
+                </p>            
+            </div>
+
+            <div class="t2-container">
+                <p class="t2">
+                    Unwind Your Mind, Leave Worries Behind
+                </p>
+            </div>
+
+            <div class="options-container">
+
+            <div class="option">
+
+                <a href="depressques.html">
+
+                <button class="option-style">
+                    Depression Test
+                </button>
+            </div>
+
+            <div class="option">
+
+                <a href="anxietyques.html">
+
+                <button class="option-style">
+                    Anxiety Test
+                </button>            
+            </div> 
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
